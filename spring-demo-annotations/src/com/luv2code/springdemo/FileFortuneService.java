@@ -13,7 +13,7 @@ import java.util.Random;
 @Component
 public class FileFortuneService implements FortuneService{
 
-    private String fileName = "C:\\PROJECTS\\spring-demo-annotations\\src\\fortune-data.txt";
+    private String fileName = "C:\\PROJECTS\\Spring-Exercises\\spring-demo-annotations\\src\\fortune-data.txt";
     private List<String> theFortunes;
 
     // create a random number generator
